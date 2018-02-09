@@ -6,7 +6,8 @@
 
 ## Starting BlockChain
 First of all, start HyperLedger Fabric and create a new AdminPeer.
-After that, you can access the `to-do-network/` and follow [this steps (Starting from step 4)](https://hyperledger.github.io/composer/tutorials/developer-tutor)
+After that, you can access the `to-do-network/` and follow [this steps (Starting from step 4)](https://hyperledger.github.io/composer/tutorials/developer-tutor).
+For start blockChain serve run: `./runserver.sh`
 ## Start App
 Access `angularApp/` and follow this steps:
 
