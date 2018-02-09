@@ -1,0 +1,9 @@
+/** Sample queries for Commodity Trading business network
+*/
+
+query selectTaskByOwner {
+  description: "Select all tasks based on their owner"
+  statement:
+      SELECT org.todo.network.Task
+          WHERE (user == _$owner)
+}

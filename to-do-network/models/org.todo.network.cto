@@ -1,0 +1,24 @@
+/**
+ * Write your model definitions here
+ */
+
+namespace org.todo.network
+
+participant User identified by email {
+  o String email
+}
+
+asset Task identified by taskId {
+  o String taskId
+  o String value
+  --> User user
+}
+
+transaction ChangeTask {
+  o String newValue
+  --> Task task
+}
+
+transaction DeleteTask {
+  --> Task task
+}

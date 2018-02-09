@@ -1,0 +1,6 @@
+<h2>Digite seu email para acessar sua lista no BlockChain</h2>
+<form (ngSubmit)="signInUser()">
+    <md-input-container>
+        <input mdInput placeholder="Seu email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}">
+    </md-input-container>
+</form>

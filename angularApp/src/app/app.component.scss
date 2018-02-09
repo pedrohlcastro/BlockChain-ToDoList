@@ -1,0 +1,24 @@
+.title {
+    color:white;
+    background-color: #673ab7;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: -15px;
+    font-weight: bold;
+    h1{
+        margin-left: 40%;
+        margin-right: 40%;
+    } 
+    border-bottom: white solid 5px;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.content{ 
+    background-color: #F1EDF8;
+    min-height: calc(100vh - 105px);
+    border: white solid 20px;
+}
